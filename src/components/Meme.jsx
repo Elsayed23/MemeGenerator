@@ -78,7 +78,7 @@ export default function Form() {
                 <h3 className='memeText absolute text-center left-1/2 -translate-x-1/2 text-3xl uppercase text-white tracking-normal top-0 m-0 meme-top'>
                     {memeImage.topMeme}
                 </h3>
-                {memeImage.url && <img src={memeImage.url} className='max-w-[400px] h-[400px] mx-auto' alt="" />}
+                {memeImage.url && <img src={memeImage.url} className='max-w-full h-[400px] mx-auto' alt="" />}
                 <h3 className='memeText absolute text-center left-1/2 -translate-x-1/2 text-3xl uppercase text-white tracking-normal bottom-0 m-0 meme-bottom'>
                     {memeImage.bottomMeme}
                 </h3>
