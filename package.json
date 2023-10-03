@@ -1,5 +1,6 @@
 {
   "name": "proj1",
+  "homepage": "https://elsayed23.github.io/MemeGenerator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
